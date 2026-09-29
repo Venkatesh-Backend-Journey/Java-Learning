@@ -1,0 +1,26 @@
+| Method | Purpose |
+| --- | --- |
+| **asList(T... a)** | Converts an array into a fixed‑size ``List``. |
+| **binarySearch(array, key)** | Searches for an element using binary search (array must be sorted). |
+| **binarySearch(array, fromIndex, toIndex, key)** | Searches within a specific range of the array. |
+| **compare(array1, array2)** | Lexicographically compares two arrays. |
+| **compareUnsigned(array1, array2)** | Compares arrays treating elements as unsigned. |
+| **copyOf(original, newLength)** | Copies an array into a new array with the specified length. |
+| **copyOfRange(original, from, to)** | Copies a range of elements into a new array. |
+| **deepEquals(array1, array2)** | Compares two multidimensional arrays for deep equality. |
+| **deepHashCode(array)** | Returns a hash code for a multidimensional array. |
+| **deepToString(array)** | Returns a string representation of a multidimensional array. |
+| **equals(array1, array2)** | Checks if two arrays are equal (element by element). |
+| **fill(array, value)** | Fills the entire array with a given value. |
+| **fill(array, fromIndex, toIndex, value)** | Fills a range of the array with a given value. |
+| **hashCode(array)** | Returns a hash code for the array. |
+| **mismatch(array1, array2)** | Returns the index of the first mismatch between two arrays. |
+| **parallelPrefix(array, operator)** | Applies a cumulative operation in parallel. |
+| **parallelSetAll(array, generator)** | Sets all elements using a generator function in parallel. |
+| **parallelSort(array)** | Sorts the array in parallel (multi‑threaded). |
+| **setAll(array, generator)** | Sets all elements using a generator function. |
+| **sort(array)** | Sorts the array in ascending order. |
+| **sort(array, fromIndex, toIndex)** | Sorts a specific range of the array. |
+| **spliterator(array)** | Creates a Spliterator for the array (used in Streams). |
+| **stream(array)** | Converts the array into a Stream. |
+| **toString(array)** | Returns a string representation of the array. |
